@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios'
 const CRUD = () => {
-    const [formData, setFormData] = useState({
+    const [formData, setFormData] = useState({     
         userId: "",
         id: "",
         title: "",
